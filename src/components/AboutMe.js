@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Resume from "../assets/Resume.pdf";
 function AboutMe() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -37,8 +38,12 @@ function AboutMe() {
               and oppotunities to enhance my skills and knowledge.
             </p>
             <div className="button-grp">
-              <p className="button">Hire Me</p>
-              <p className="button">Download Resume</p>
+              <a href="#contact">
+                <p className="button">Hire Me</p>
+              </a>
+              <a href={Resume} download>
+                <p className="button">Download Resume</p>
+              </a>
             </div>
           </ProfileDesc>
         </AboutMain>
@@ -167,6 +172,9 @@ const ProfileDesc = styled.div`
   .button-grp {
     display: flex;
     margin-top: 30px;
+    a {
+      text-decoration: none;
+    }
 
     @media (max-width: 768px) {
       flex-direction: column;

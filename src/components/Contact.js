@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 function Contact() {
   return (
-    <MainContainer>
+    <MainContainer id="contact">
       <Container>
         <ContactBG>
           <img src="/img/contactBG.png" alt="" />
