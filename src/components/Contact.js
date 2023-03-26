@@ -17,20 +17,35 @@ function Contact() {
           </div>
         </ContactHeader>
         <ContactDetail>
-            <div className="top">
-              <div>
-              <input  type="text" name="name" placeholder="Your Full Name" required />
-              </div>
-              <div>
-              <input type="email" name="email" placeholder="Your Email" required />
-              </div>
+          <div className="top">
+            <div>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name"
+                required
+              />
             </div>
             <div>
-              <textarea name="message" rows="10"  placeholder="Your Message" required></textarea>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
             </div>
-            <div>
-              <button type="submit">Send Message</button>
-            </div>
+          </div>
+          <div>
+            <textarea
+              name="message"
+              rows="10"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">Send Message</button>
+          </div>
         </ContactDetail>
       </Container>
     </MainContainer>
@@ -73,7 +88,7 @@ const ContactHeader = styled.div`
     letter-spacing: 2px;
     transition: all 0.25s;
 
-    &:hover{
+    &:hover {
       letter-spacing: 15px;
     }
   }
@@ -88,40 +103,39 @@ const ContactHeader = styled.div`
 `;
 
 const ContactDetail = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-.top{
   display: flex;
-  margin-top: 50px;
-}
-input{
-  height: 50px;
-  width: 400px;
-  margin: 20px;
-  padding: 10px;
-  
-}
-textarea{
-  width: 840px;
-  padding: 20px;
-  resize: none;
-}
-button{
-  width: 300px;
-  height: 50px;
-  background-color: black;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 1.4rem;
-  margin-top: 10px;
-  font-family: "Ailerons";
-  transition: all 0.25s;
-
-  &:hover{
-    letter-spacing: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .top {
+    display: flex;
+    margin-top: 50px;
   }
-}
-`
+  input {
+    height: 50px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+  }
+  textarea {
+    width: 840px;
+    padding: 20px;
+    resize: none;
+  }
+  button {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-family: "Ailerons";
+    transition: all 0.25s;
+
+    &:hover {
+      letter-spacing: 3px;
+    }
+  }
+`;
