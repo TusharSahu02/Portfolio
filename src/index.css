@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@font-face {
+  font-family: "HorizonOutlined";
+  src: local("Horizonoutlined"),
+    url("./fonts/horizon_outlined.otf") format("truetype");
+}
+@font-face {
+  font-family: "Horizon";
+  src: local("Horizon"), url("./fonts/horizon.otf") format("truetype");
+}
+@font-face {
+  font-family: "Lastica";
+  src: local("Lastica"), url("./fonts/Lastica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Blackpast";
+  src: local("Blackpast"), url("./fonts/blackpast.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Aquire";
+  src: local("Aquire"), url("./fonts/AquireBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Ailerons";
+  src: local("Ailerons"), url("./fonts/Ailerons-Typeface.otf") format("truetype");
+}
+
