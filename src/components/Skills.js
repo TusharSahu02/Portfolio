@@ -23,22 +23,22 @@ function Skills() {
       <SDetails data-aos="fade-up">
         <Marquee speed={50}>
           <div>
-            <img src="/img/html.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="" />
           </div>
           <div>
-            <img src="/img/css.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
           </div>
           <div>
-            <img src="/img/js.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="" />
           </div>
           <div>
-            <img src="/img/atom.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
           </div>
           <div>
-            <img src="/img/java.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="" />
           </div>
           <div>
-            <img src="/img/android.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888839.png" alt="" />
           </div>
           <div>
             <img src="/img/android1.png" alt="" />
@@ -47,28 +47,28 @@ function Skills() {
             <img src="/img/kotlin.png" alt="" />
           </div>
           <div>
-            <img src="/img/c-.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="" />
           </div>
           <div>
-            <img src="/img/clogo.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="" />
           </div>
           <div>
             <img src="/img/firebase.png" alt="" />
           </div>
           <div>
-            <img src="/img/git.png" alt="" />
+            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="" />
           </div>
           <div>
-            <img src="/img/github.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" />
           </div>
           <div>
-            <img src="/img/tailwind.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="" />
           </div>
           <div>
-            <img src="/img/materialUI.png" alt="" />
+            <img src="https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png" alt="" />
           </div>
           <div>
-            <img src="/img/bootstrap.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="" />
           </div>
         </Marquee>
       </SDetails>

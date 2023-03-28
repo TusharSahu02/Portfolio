@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @font-face {
   font-family: "HorizonOutlined";
   src: local("Horizonoutlined"),
@@ -31,6 +31,6 @@ html{
 }
 @font-face {
   font-family: "Ailerons";
-  src: local("Ailerons"), url("./fonts/Ailerons-Typeface.otf") format("truetype");
+  src: local("Ailerons"),
+    url("./fonts/Ailerons-Typeface.otf") format("truetype");
 }
-

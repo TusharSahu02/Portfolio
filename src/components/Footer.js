@@ -14,7 +14,7 @@ function Footer() {
             <a href="mailto:tusharintern02@gmail.com" target={"_blank"}>
               <img src="/img/gmail.png" alt="" />
             </a>
-            <a href="http://wa.me/7000773166" target={"_blank"}>
+            <a href="http://wa.me/917000773166" target={"_blank"}>
               <img src="/img/whatsapp.png" alt="" />
             </a>
             <a href="https://github.com/TusharSahu02" target={"_blank"}>
