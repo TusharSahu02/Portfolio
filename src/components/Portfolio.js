@@ -36,17 +36,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/atom.png" alt="" />
-                        <img src="/img/materialUI.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
+                        <img src="https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_connections-react-google-activity-7035718911648018432-MJCz?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/google-clone">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://google-clone-tusharsahu02.vercel.app/">
                         <img src="/img/deployed.png" alt="" />
@@ -74,17 +74,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/atom.png" alt="" />
-                        <img src="/img/css.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_folks-project-reactjs-activity-7034077139171745792-pUMT?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/Weather-App">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://weather-app-tushar.vercel.app/">
                         <img src="/img/deployed.png" alt="" />
@@ -112,17 +112,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/atom.png" alt="" />
-                        <img src="/img/css.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_connections-greetings-react-activity-7032042936812859392-l2yg?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/MarkDown-Preview">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://tushar-sahu-markdown.netlify.app/">
                         <img src="/img/deployed.png" alt="" />
@@ -149,17 +149,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/atom.png" alt="" />
-                        <img src="/img/tailwind.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_connections-share-project-activity-7032663113380290560-_iEU?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/da-app">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://tusharsahu02.github.io/da-app/">
                         <img src="/img/deployed.png" alt="" />
@@ -192,20 +192,20 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/kotlin.png" alt="" />
-                        <img src="/img/xml.png" alt="" />
+                        <img src="https://www.svgrepo.com/show/452238/jb-kotlin.svg" alt="" />
+                        <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_connections-share-android-activity-7040789857094279168-rPJT?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/Music-Player">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://drive.google.com/file/d/1VleOl1Xw2-suAhMsoaDk3u8VaikKWqzQ/view">
-                        <img src="/img/android.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/888/888839.png" alt="" />
                       </a>
                     </div>
                   </div>
@@ -231,17 +231,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/java.png" alt="" />
-                        <img src="/img/xml.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="" />
+                        <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/in/tushar-sahu-buddy/">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/BMI-App">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                     </div>
                   </div>
@@ -267,20 +267,20 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/java.png" alt="" />
-                        <img src="/img/xml.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="" />
+                        <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/posts/tushar-sahu-buddy_android-noteapp-beginner-activity-6973273380418433024-_0d0?utm_source=share&utm_medium=member_desktop">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/NotesApp">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                       <a href="https://drive.google.com/file/d/1tW7NEVGMhhq6YS11IwdmluSZFzoj4kDd/view">
-                        <img src="/img/android.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/888/888839.png" alt="" />
                       </a>
                     </div>
                   </div>
@@ -306,17 +306,17 @@ function Portfolio() {
                     <p className="desc">
                       <div className="links_">
                         Tech Stack used :
-                        <img src="/img/java.png" alt="" />
-                        <img src="/img/xml.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="" />
+                        <img src="https://seeklogo.com/images/X/xml-logo-58BFD10607-seeklogo.com.png" alt="" />
                       </div>
                     </p>
 
                     <div className="links">
                       <a href="https://www.linkedin.com/in/tushar-sahu-buddy/">
-                        <img src="/img/linkedin.png" alt="" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
                       </a>
                       <a href="https://github.com/TusharSahu02/Meme-Share-App">
-                        <img src="/img/github.png" alt="" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
                       </a>
                     </div>
                   </div>

@@ -26,12 +26,14 @@ function Skills() {
             <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="" />
           </div>
           <div>
+            {/* css */}
             <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
           </div>
           <div>
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="" />
           </div>
           <div>
+            {/* react */}
             <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
           </div>
           <div>
@@ -62,9 +64,11 @@ function Skills() {
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" />
           </div>
           <div>
+            {/* tailwind css */}
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="" />
           </div>
           <div>
+            {/* material ui */}
             <img src="https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png" alt="" />
           </div>
           <div>

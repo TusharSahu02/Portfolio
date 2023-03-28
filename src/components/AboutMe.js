@@ -84,7 +84,7 @@ const AboutHeader = styled.div`
     font-size: 100px;
     font-family: "HorizonOutlined";
     display: flex;
-    opacity: 50%;
+    /* opacity: 50%; */
     justify-content: center;
     align-items: center;
 
