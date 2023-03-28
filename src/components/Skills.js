@@ -41,10 +41,10 @@ function Skills() {
             <img src="https://cdn-icons-png.flaticon.com/512/888/888839.png" alt="" />
           </div>
           <div>
-            <img src="/img/android1.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Android_Studio_Icon_%282014-2019%29.svg/1200px-Android_Studio_Icon_%282014-2019%29.svg.png" alt="" />
           </div>
           <div>
-            <img src="/img/kotlin.png" alt="" />
+            <img src="https://www.svgrepo.com/show/452238/jb-kotlin.svg" alt="" />
           </div>
           <div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="" />
@@ -53,7 +53,7 @@ function Skills() {
             <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="" />
           </div>
           <div>
-            <img src="/img/firebase.png" alt="" />
+            <img src="https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png" alt="" />
           </div>
           <div>
             <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="" />

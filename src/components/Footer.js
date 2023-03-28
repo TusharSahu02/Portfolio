@@ -12,19 +12,19 @@ function Footer() {
           <p className="header">Tushar Sahu</p>
           <div className="socials">
             <a href="mailto:tusharintern02@gmail.com" target={"_blank"}>
-              <img src="/img/gmail.png" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/512/6711/6711567.png" alt="" />
             </a>
             <a href="http://wa.me/917000773166" target={"_blank"}>
-              <img src="/img/whatsapp.png" alt="" />
+              <img className="scale" src="https://www.freepnglogos.com/uploads/whatsapp-logo-light-green-png-0.png" alt="" />
             </a>
             <a href="https://github.com/TusharSahu02" target={"_blank"}>
-              <img src="/img/github.png" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" />
             </a>
             <a href="https://www.linkedin.com/in/tushar-sahu-buddy/" target={"_blank"}>
-              <img src="/img/linkedin.png" alt="" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="" />
             </a>
             <a href="https://www.hackerrank.com/tusharsahu190702" target={"_blank"}>
-              <img className="scale" src="/img/hackerrank.png" alt="" />
+              <img  src="https://gitlab.com/uploads/-/system/project/avatar/39393275/hackerrank.jpg" alt="" />
             </a>
           </div>
         </MidFooter>
@@ -70,6 +70,7 @@ const MidFooter = styled.div`
 
   .scale {
     scale: 140%;
+    margin-bottom: 29px;
 
     &:hover{
       scale: 160%;
