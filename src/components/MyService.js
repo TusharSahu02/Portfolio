@@ -23,7 +23,7 @@ function MyService() {
           <div className="q_data" data-aos="fade-right">
             <div className="q_heading">
               <div>
-                <img src="/img/webFront.png" alt="" />
+                <img src="https://cdn-icons-png.flaticon.com/512/2721/2721609.png" alt="" />
               </div>
               <p>Web Frontend</p>
             </div>
@@ -31,7 +31,7 @@ function MyService() {
           <div className="q_data" data-aos="fade-right">
             <div className="q_heading">
               <div>
-                <img src="/img/frontend.png" alt="" />
+                <img src="https://cdn-icons-png.flaticon.com/512/6943/6943969.png" alt="" />
               </div>
               <p>App Frontend</p>
             </div>
@@ -39,7 +39,7 @@ function MyService() {
           <div className="q_data" data-aos="fade-right">
             <div className="q_heading">
               <div>
-                <img src="/img/backend.png" alt="" />
+                <img src="https://cdn-icons-png.flaticon.com/512/160/160138.png" alt="" />
               </div>
               <p>App Backend</p>
             </div>
@@ -47,7 +47,7 @@ function MyService() {
           <div className="q_data" data-aos="fade-right">
             <div className="q_heading">
               <div>
-                <img src="/img/design.png" alt="" />
+                <img src="https://static.thenounproject.com/png/2823238-200.png" alt="" />
               </div>
               <p>UI/UX Design</p>
             </div>
