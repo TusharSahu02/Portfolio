@@ -110,7 +110,7 @@ const AboutHeader = styled.div`
     .name {
       font-size: 20px;
       margin: 0;
-      margin-top: -30px;
+      margin-top: -34px;
     }
   }
 `;
@@ -233,7 +233,7 @@ const ProfileDesc = styled.div`
       transform: translate(0, 0);
     }
     @media (max-width: 768px) {
-      width: 100px;
+      width: 120px;
       font-size: 0.6rem;
       display: flex;
       align-items: center;

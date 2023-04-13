@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_lehq11k",
+        "template_qu2t891",
+        form.current,
+        "lyD4_z9AZORq2Sh1N"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <MainContainer id="contact">
       <Container>
@@ -17,35 +39,37 @@ function Contact() {
           </div>
         </ContactHeader>
         <ContactDetail>
-          <div className="top">
-            <div>
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Full Name"
-                required
-              />
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="top">
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Full Name"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
             </div>
             <div>
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
+              <textarea
+                name="message"
+                rows="10"
+                placeholder="Your Message"
                 required
-              />
+              ></textarea>
             </div>
-          </div>
-          <div>
-            <textarea
-              name="message"
-              rows="10"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </div>
-          <div>
-            <button type="submit">Send Message</button>
-          </div>
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
         </ContactDetail>
       </Container>
     </MainContainer>
@@ -103,39 +127,41 @@ const ContactHeader = styled.div`
 `;
 
 const ContactDetail = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  .top {
+  form {
     display: flex;
-    margin-top: 50px;
-  }
-  input {
-    height: 50px;
-    width: 400px;
-    margin: 20px;
-    padding: 10px;
-  }
-  textarea {
-    width: 840px;
-    padding: 20px;
-    resize: none;
-  }
-  button {
-    width: 300px;
-    height: 50px;
-    background-color: black;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 1.4rem;
-    margin-top: 10px;
-    font-family: "Ailerons";
-    transition: all 0.25s;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .top {
+      display: flex;
+      margin-top: 50px;
+    }
+    input {
+      height: 50px;
+      width: 400px;
+      margin: 20px;
+      padding: 10px;
+    }
+    textarea {
+      width: 840px;
+      padding: 20px;
+      resize: none;
+    }
+    button {
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 1.4rem;
+      margin-top: 10px;
+      font-family: "Ailerons";
+      transition: all 0.25s;
 
-    &:hover {
-      letter-spacing: 3px;
+      &:hover {
+        letter-spacing: 3px;
+      }
     }
   }
 `;

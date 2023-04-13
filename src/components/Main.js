@@ -37,6 +37,21 @@ function Main() {
                 multiTextLoop
               />
             </div>
+            <div className="animatedTextSmall">
+              <TypeWriterEffect
+                textStyle={{
+                  fontFamily: "HorizonOutlined",
+                  fontWeight: 500,
+                  fontSize: "50px",
+                }}
+                startDelay={2000}
+                cursorColor="#3F3D56"
+                multiText={["WEB", "ANDROID"]}
+                multiTextDelay={1000}
+                typeSpeed={150}
+                multiTextLoop
+              />
+            </div>
           </span>
           <Name className="developer"> Developer</Name>
         </Intro>
@@ -69,7 +84,7 @@ const Container = styled.div`
     .mainDP {
       margin: 0;
       width: 300px;
-      /* margin-top: 350px; */
+      margin-top: 55px;
     }
   }
 `;
@@ -91,6 +106,10 @@ const Intro = styled.div`
     font-family: "Horizon";
     margin-top: -200px;
     color: white;
+
+    @media (max-width:  768px){
+      margin-top: -40px;
+    }
   }
   span {
     color: white;
@@ -104,8 +123,16 @@ const Intro = styled.div`
       /* display:none; */
     }
   }
-  .animatedText{
-    @media (max-width: 768px){
+  .animatedTextSmall {
+    /* margin-top: -5dp; */
+    display: none;
+    @media (max-width: 768px) {
+      font-size: 40px;
+      display: block;
+    }
+  }
+  .animatedText {
+    @media (max-width: 768px) {
       font-size: 40px;
       display: none;
     }
@@ -124,9 +151,11 @@ const Text1 = styled.div`
     font-size: 20px;
     margin: 0;
     padding: 0;
+    /* margin-top: -5px; */
   }
 `;
 
 const MainContainer = styled.div`
   background: #000000;
+  overflow-x: hidden;
 `;
