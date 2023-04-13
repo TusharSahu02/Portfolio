@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
   const form = useRef();
@@ -24,6 +26,18 @@ function Contact() {
       );
     e.target.reset();
   };
+  const toastMsg = () => {
+    toast.success(' Sent Successfully !!', {
+      position: "top-center",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      });
+  }
   return (
     <MainContainer id="contact">
       <Container>
@@ -67,11 +81,12 @@ function Contact() {
               ></textarea>
             </div>
             <div>
-              <button type="submit">Send Message</button>
+              <button type="submit" onClick={toastMsg}>Send Message</button>
             </div>
           </form>
         </ContactDetail>
       </Container>
+      <ToastContainer />
     </MainContainer>
   );
 }
