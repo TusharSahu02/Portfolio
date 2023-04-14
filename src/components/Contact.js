@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "emailjs-com";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
   const form = useRef();
@@ -27,7 +27,7 @@ function Contact() {
     e.target.reset();
   };
   const toastMsg = () => {
-    toast.success(' Sent Successfully !!', {
+    toast.success(" Sent Successfully !!", {
       position: "top-center",
       autoClose: 2000,
       hideProgressBar: false,
@@ -36,8 +36,8 @@ function Contact() {
       draggable: true,
       progress: undefined,
       theme: "colored",
-      });
-  }
+    });
+  };
   return (
     <MainContainer id="contact">
       <Container>
@@ -81,7 +81,9 @@ function Contact() {
               ></textarea>
             </div>
             <div>
-              <button type="submit" onClick={toastMsg}>Send Message</button>
+              <button type="submit" onClick={toastMsg}>
+                Send Message
+              </button>
             </div>
           </form>
         </ContactDetail>
@@ -96,6 +98,10 @@ export default Contact;
 const MainContainer = styled.div`
   margin-top: 50px;
   height: 650px;
+
+  @media(max-width:768px){
+    display: none;
+  }
 `;
 const Container = styled.div`
   margin-left: 300px;
@@ -112,11 +118,18 @@ const ContactBG = styled.div`
     width: 40%;
     z-index: -1;
     transform: rotate(45deg);
+
+    @media(max-width:768px){
+      display:none;
+    }
   }
 `;
 
 const ContactHeader = styled.div`
   margin-top: -600px;
+  @media (max-width: 768px) {
+    margin-top: -100px;
+  }
   .contact {
     font-family: "HorizonOutlined";
     font-size: 110px;
@@ -126,6 +139,9 @@ const ContactHeader = styled.div`
 
     letter-spacing: 2px;
     transition: all 0.25s;
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
 
     &:hover {
       letter-spacing: 15px;
@@ -138,6 +154,11 @@ const ContactHeader = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: -80px;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+      margin-top: -30px;
+    }
   }
 `;
 
@@ -147,20 +168,35 @@ const ContactDetail = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     .top {
       display: flex;
       margin-top: 50px;
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
     }
     input {
       height: 50px;
       width: 400px;
       margin: 20px;
       padding: 10px;
+
+      @media (max-width: 768px) {
+        width: 300px;
+        margin:10px;
+        
+      }
     }
     textarea {
       width: 840px;
       padding: 20px;
       resize: none;
+      @media (max-width: 768px) {
+        width: 300px;
+       
+      }
+      
     }
     button {
       width: 300px;

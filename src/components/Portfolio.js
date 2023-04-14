@@ -589,9 +589,9 @@ const WebDev = styled.div`
       margin-top: -420px;
       margin-left: -450px;
 
-      @media (max-width:768px){
+      @media (max-width: 768px) {
         width: 270px;
-        margin-top:-600px;
+        margin-top: -600px;
         margin-left: -250px;
       }
     }
@@ -607,9 +607,8 @@ const AndroidDev = styled.div`
 
   /* border: 1px solid black; */
   @media (max-width: 768px) {
-    font-size: 1rem;
-    /* width: 100px; */
-    /* display: none; */
+    font-size: 20px;
+    margin-top: 30px;
   }
   .card1 {
     margin: 20px;
@@ -625,6 +624,12 @@ const AndroidDev = styled.div`
 
     transition: 1s ease;
 
+    @media (max-width: 768px) {
+      width: 400px;
+      height: 240px;
+      margin-left: 100px;
+    }
+
     &:hover {
       transform: scale(1.1);
       z-index: 2;
@@ -635,15 +640,27 @@ const AndroidDev = styled.div`
       .title {
         font-family: "Aquire";
         font-size: 1.5rem;
+
+        @media (max-width: 768px) {
+          font-size: 1rem;
+        }
       }
       .desc {
         margin-top: 5px;
         font-size: 0.8rem;
         font-family: "Roboto";
+        @media (max-width: 768px) {
+          font-size: 0.6rem;
+          margin: 0;
+        }
       }
       .links {
         cursor: pointer;
         margin-top: 10px;
+
+        @media (max-width: 768px) {
+          margin: 0;
+        }
         img {
           width: 30px;
           margin: 4px;
@@ -659,6 +676,9 @@ const AndroidDev = styled.div`
         align-items: center;
         justify-content: center;
         margin-top: 30px;
+        @media (max-width: 768px) {
+          margin: 0;
+        }
         img {
           width: 20px;
           margin: 4px;
@@ -667,6 +687,8 @@ const AndroidDev = styled.div`
             scale: 110%;
           }
         }
+      }
+      @media (max-width: 768px) {
       }
     }
     @media (max-width: 768px) {
@@ -687,6 +709,15 @@ const AndroidDev = styled.div`
 
     transition: 1s ease;
 
+    @media (max-width: 768px) {
+      width: 400px;
+      height: 240px;
+      margin-left: 100px;
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: center; */
+    }
+
     &:hover {
       transform: scale(1.1);
       z-index: 2;
@@ -697,15 +728,25 @@ const AndroidDev = styled.div`
       .title {
         font-family: "Aquire";
         font-size: 1.5rem;
+        @media (max-width: 768px) {
+          font-size: 1rem;
+        }
       }
       .desc {
         margin-top: 5px;
         font-size: 0.8rem;
         font-family: "Roboto";
+        @media (max-width: 768px) {
+          margin: 0;
+          font-size: 0.6rem;
+        }
       }
       .links {
         cursor: pointer;
         margin-top: 10px;
+        @media (max-width: 768px) {
+          margin: 0;
+        }
         img {
           width: 30px;
           margin: 4px;
@@ -721,6 +762,9 @@ const AndroidDev = styled.div`
         align-items: center;
         justify-content: center;
         margin-top: 30px;
+        @media (max-width: 768px) {
+          margin: 0;
+        }
         img {
           width: 20px;
           margin: 4px;
@@ -741,6 +785,10 @@ const AndroidDev = styled.div`
       margin-top: -520px;
       margin-left: -350px;
 
+      @media (max-width: 768px) {
+        width: 350px;
+        margin-left: -250px;
+      }
     }
   }
   .card3 {
@@ -749,6 +797,11 @@ const AndroidDev = styled.div`
       width: 450px;
       margin-top: -420px;
       margin-right: -400px;
+
+      @media (max-width: 768px) {
+        width: 300px;
+        margin-right: -200px;
+      }
     }
   }
 `;
