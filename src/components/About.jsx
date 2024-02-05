@@ -299,6 +299,7 @@ const Right = styled.div`
   }
   .button {
     cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     border: 2px solid currentColor;
