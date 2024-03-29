@@ -12,6 +12,63 @@ const Portfolio = () => {
           <h3>Projects</h3>
         </Title>
         <Content>
+          {/* Chipper */}
+          <Card id="alt">
+            <div className="right port-content margin">
+              <div className="title">
+                <h1>Chipper</h1>
+              </div>
+              <div className="content">
+                <p>
+                  <b>Welcome to Chipper : </b>
+                  The ultimate social media platform! Packed with features and
+                  powered by a cutting-edge tech stack including MERN,
+                  TailwindCSS, and ShadowUI. Enjoy seamless authentication,
+                  protected routes, and effortless deployment.
+                </p>
+              </div>
+              <div className="tech">
+                <h1>Tech Stack: </h1>
+                <ul>
+                  <li>React.js</li>
+                  <li>MongoDB</li>
+                  <li>Express.js</li>
+                  <li>Node.js</li>
+                  <li>TailwindCSS</li>
+                  <li>ShadcnUI</li>
+                  <li>JWT</li>
+                  <li>Recoil</li>
+                </ul>
+              </div>
+              <div className="link">
+                <a
+                  className="one"
+                  href="https://chipper-lmdc.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit Chipper
+                </a>
+                <a
+                  className="two"
+                  href="https://github.com/TusharSahu02/MERN-Project/tree/main/socialmedia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github repo
+                </a>
+              </div>
+            </div>
+            <div className="left">
+              <a
+                href="https://pictureperfect-self.vercel.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src="videos/chipper.gif" alt="" width="100%" />
+              </a>
+            </div>
+          </Card>
           {/* jotion */}
           <Card>
             <div className="left">
@@ -180,59 +237,7 @@ const Portfolio = () => {
             </div>
           </Card>
           {/* Movie */}
-          <Card id="alt">
-            <div className="right port-content margin">
-              <div className="title">
-                <h1>Picture Perfect</h1>
-                <img src="img/movix-logo.png" alt="" />
-              </div>
-              <div className="content">
-                <p>
-                  Utilizing the TMDb API, brings you an immersive movie
-                  experience. With Redux Toolkit for state management, dive into
-                  a world of effortless navigation and curated content.
-                </p>
-              </div>
-              <div className="tech">
-                <h1>Tech Stack: </h1>
-                <ul>
-                  <li>React.js</li>
-                  <li>Redux</li>
-                  <li>Axios</li>
-                  <li>TMDB Api</li>
-                  <li>Saas</li>
-                  <li>React Player</li>
-                </ul>
-              </div>
-              <div className="link">
-                <a
-                  className="one"
-                  href="https://pictureperfect-self.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit Picture Perfect
-                </a>
-                <a
-                  className="two"
-                  href="https://github.com/TusharSahu02/picture-perfect"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github repo
-                </a>
-              </div>
-            </div>
-            <div className="left">
-              <a
-                href="https://pictureperfect-self.vercel.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src="videos/movie.gif" alt="" width="100%" />
-              </a>
-            </div>
-          </Card>
+
           <a
             className="all"
             href="https://github.com/TusharSahu02"
