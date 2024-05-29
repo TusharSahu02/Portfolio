@@ -19,7 +19,7 @@ const Experience = () => {
             <div className="content">
               <h1>Frontend Developer</h1>
               <p>( Mohali, Punjab )</p>
-              <p>( Oct 24' - Dec 24')</p>
+              <p>( Oct 23' - Dec 23')</p>
             </div>
           </Card>
           <Card>
@@ -30,7 +30,7 @@ const Experience = () => {
             <div className="content">
               <h1>React Developer</h1>
               <p>( Mohali, Punjab )</p>
-              <p>( July 24' - Sep 24')</p>
+              <p>( July 23' - Sep 23')</p>
             </div>
           </Card>
         </Container>

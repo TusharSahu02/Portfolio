@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { LuArrowUpRightFromCircle } from "react-icons/lu";
+import Web from "./Web";
+import Native from "./Native";
+import Randoms from "./Randoms";
 
 const Portfolio = () => {
+  const [show, setShow] = useState("web");
+  const handleChange = (e) => {
+    if (e === "web") {
+      setShow("web");
+    } else if (e === "native") {
+      setShow("native");
+    } else if (e === "randoms") {
+      setShow("randoms");
+    }
+  };
+
   return (
     <MainContainer>
       <img className="bg" src="/img/waveQuali.svg" alt="" />
@@ -11,244 +24,36 @@ const Portfolio = () => {
           <h1>Recent</h1>
           <h3>Projects</h3>
         </Title>
-        <Content>
-          {/* Chipper */}
-          <Card id="alt">
-            <div className="right port-content margin">
-              <div className="title">
-                <h1>Chipper</h1>
-              </div>
-              <div className="content">
-                <p>
-                  <b>Welcome to Chipper : </b>
-                  The ultimate social media platform! Packed with features and
-                  powered by a cutting-edge tech stack including MERN,
-                  TailwindCSS, and ShadowUI. Enjoy seamless authentication,
-                  protected routes, and effortless deployment.
-                </p>
-              </div>
-              <div className="tech">
-                <h1>Tech Stack: </h1>
-                <ul>
-                  <li>React.js</li>
-                  <li>MongoDB</li>
-                  <li>Express.js</li>
-                  <li>Node.js</li>
-                  <li>TailwindCSS</li>
-                  <li>ShadcnUI</li>
-                  <li>JWT</li>
-                  <li>Recoil</li>
-                </ul>
-              </div>
-              <div className="link">
-                <a
-                  className="one"
-                  href="https://chipper-lmdc.onrender.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit Chipper
-                </a>
-                <a
-                  className="two"
-                  href="https://github.com/TusharSahu02/MERN-Project/tree/main/socialmedia"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github repo
-                </a>
-              </div>
-            </div>
-            <div className="left">
-              <a
-                href="https://chipper-lmdc.onrender.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src="videos/chipper.gif" alt="" width="100%" />
-              </a>
-            </div>
-          </Card>
-          {/* jotion */}
-          <Card>
-            <div className="left">
-              <a
-                href="https://notion-eight-theta.vercel.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src="videos/Notion-Clone.gif" alt="" width={"100%"} />
-              </a>
-            </div>
-            <div className="right port-content">
-              <div className="title">
-                <h1>Jotion</h1>
-                <img src="img/notion.png" alt="" />
-              </div>
-              <div className="content">
-                <p>
-                  <b>Meet Jotion: </b>
-                  Elevate productivity with image uploads, customizable icons,
-                  headers, and a robust text editor powered by Blacknote.
-                  Simplify organization and creativity effortlessly.
-                </p>
-              </div>
-              <div className="tech">
-                <h1>Tech Stack: </h1>
-                <ul>
-                  <li>React.js</li>
-                  <li>Next.js</li>
-                  <li>Convex</li>
-                  <li>Clerk</li>
-                  <li>Edge Store</li>
-                  <li>Shadcn-ui</li>
-                  <li>Tailwind CSS</li>
-                  <li>Blacknote Editor</li>
-                </ul>
-              </div>
-              <div className="link">
-                <a
-                  className="one"
-                  href="https://notion-eight-theta.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit Jotion
-                </a>
-                <a
-                  className="two"
-                  href="https://github.com/TusharSahu02/Jotion/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github repo
-                </a>
-              </div>
-            </div>
-          </Card>
-          {/* boom */}
-          <Card id="alt">
-            <div className="right port-content margin">
-              <div className="title">
-                <h1>Boom</h1>
-                <img
-                  src="https://cdn.worldvectorlogo.com/logos/zoom-app.svg"
-                  alt=""
-                />
-              </div>
-              <div className="content">
-                <p>
-                  <b>Introducing Boom: </b>
-                  Redefining video communication with ZegoCloud integration for
-                  seamless video calling. Elevated security with Firebase Auth.
-                  Experience high-quality meetings, easy collaboration with
-                  1-on-1 and multiple users.
-                </p>
-              </div>
-              <div className="tech">
-                <h1>Tech Stack: </h1>
-                <ul>
-                  <li>React.js</li>
-                  <li>Firebase</li>
-                  <li>Elastic-UI</li>
-                  <li>Zegocloud</li>
-                  <li>Typescript</li>
-                  <li>Redux</li>
-                </ul>
-              </div>
-              <div className="link">
-                <a
-                  className="one"
-                  href="https://zoom-clone-tusharsahu02.vercel.app/login"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit Boom
-                </a>
-                <a
-                  className="two"
-                  href="https://github.com/TusharSahu02/Boom"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github repo
-                </a>
-              </div>
-            </div>
-            <div className="left">
-              <a
-                href="https://zoom-clone-tusharsahu02.vercel.app/login"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="img/boom.png" alt="" width="100%" />
-              </a>
-            </div>
-          </Card>
-          {/* vishwarma */}
-          <Card>
-            <div className="left">
-              <a
-                href="https://vishvakarmamajdurunion.in/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src="img/vish.png" alt="" width="100%" />
-              </a>
-            </div>
-            <div className="right port-content">
-              <div className="title">
-                <h1>Vishwakarma</h1>
-                <img
-                  src="img/vish-logo.png"
-                  alt=""
-                  style={{
-                    backgroundColor: "#fff",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-              <div className="content">
-                <p>
-                  Empowering laborers with a dedicated government platform. With
-                  a fully implemented CRUD system, admin panel ensures seamless
-                  data management. Laborers can retrieve information and obtain
-                  ID cards, fostering a connected community.
-                </p>
-              </div>
-              <div className="tech">
-                <h1>Tech Stack: </h1>
-                <ul>
-                  <li>React.js</li>
-                  <li>Firebase</li>
-                  <li>Styled</li>
-                </ul>
-              </div>
-              <div className="link">
-                <a
-                  className="one"
-                  href="https://vishvakarmamajdurunion.in/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Visit Vishwakarma
-                </a>
-              </div>
-            </div>
-          </Card>
-          {/* Movie */}
 
-          <a
-            className="all"
-            href="https://github.com/TusharSahu02"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="all-projects">
-              <span>All Projects</span>
-              <LuArrowUpRightFromCircle />
+        <Content>
+          {/* <Tab>
+            <div
+              className={show === "web" ? "active" : ""}
+              onClick={() => handleChange("web")}
+            >
+              Web
             </div>
-          </a>
+            <div
+              className={show === "native" ? "active" : ""}
+              onClick={() => handleChange("native")}
+            >
+              App
+            </div> */}
+          {/* <div
+              className={show === "randoms" ? "active" : ""}
+              onClick={() => handleChange("randoms")}
+            >
+              Extras
+            </div> */}
+          {/* </Tab> */}
+          {/* {show === "web" ? (
+            <Web />
+          ) : show === "native" ? (
+            <Native />
+          ) : (
+            <Randoms />
+          )} */}
+          <Web />
         </Content>
       </Wrapper>
     </MainContainer>
@@ -264,6 +69,7 @@ const MainContainer = styled.div`
     background-color: #443c68;
   }
 `;
+
 const Wrapper = styled.div`
   position: relative;
   margin-top: -20px;
@@ -275,7 +81,27 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
 `;
+const Tab = styled.div`
+  display: flex;
+  gap: 20px;
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
 
+  div {
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .active {
+    background-color: #fff;
+    color: #443c68;
+    border-radius: 15px;
+  }
+`;
 const Title = styled.div`
   position: absolute;
   top: -300px;

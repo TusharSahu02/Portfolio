@@ -11,26 +11,35 @@ function Footer() {
         <MidFooter id="contact">
           <p className="header">Tushar Sahu</p>
           <div className="socials">
-            <a href="mailto:tusharsahu.dev@gmail.com" target={"_blank"}>
+            <a
+              rel="noreferrer"
+              href="mailto:tusharsahu.dev@gmail.com"
+              target={"_blank"}
+            >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/6711/6711567.png"
                 alt=""
               />
             </a>
-            <a href="http://wa.me/918827455874" target={"_blank"}>
+            {/* <a href="http://wa.me/918827455874" target={"_blank"}>
               <img
                 className="scale"
                 src="https://www.freepnglogos.com/uploads/whatsapp-logo-light-green-png-0.png"
                 alt=""
               />
-            </a>
-            <a href="https://github.com/TusharSahu02" target={"_blank"}>
+            </a> */}
+            <a
+              rel="noreferrer"
+              href="https://github.com/TusharSahu02"
+              target={"_blank"}
+            >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
                 alt=""
               />
             </a>
             <a
+              rel="noreferrer"
               href="https://www.linkedin.com/in/tusharsahu-rgh/"
               target={"_blank"}
             >
@@ -39,7 +48,11 @@ function Footer() {
                 alt=""
               />
             </a>
-            <a href="https://twitter.com/BuddyHidden" target={"_blank"}>
+            <a
+              rel="noreferrer"
+              href="https://twitter.com/BuddyHidden"
+              target={"_blank"}
+            >
               <img
                 src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-512.png"
                 alt=""

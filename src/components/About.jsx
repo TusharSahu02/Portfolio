@@ -22,9 +22,9 @@ const About = () => {
                   startDelay={1000}
                   cursorColor="#3F3D56"
                   multiText={[
-                    "Hola",
-                    "Hi",
                     "नमस्ते",
+                    "Hello",
+                    "Hola",
                     "Bonjou",
                     "Ciao",
                     "안녕하세요",
