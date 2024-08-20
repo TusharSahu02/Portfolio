@@ -341,9 +341,9 @@ const Web = () => {
         </div>
       </Card> */}
       {/* Movie */}
-      <div>
+      {/* <div>
         fwef
-      </div>
+      </div> */}
       <a
         className="all"
         href="https://github.com/TusharSahu02"
