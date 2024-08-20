@@ -5,6 +5,70 @@ import styled from "styled-components";
 const Web = () => {
   return (
     <Center>
+      <Card id="alt">
+        <div className="right port-content margin">
+          <div className="title">
+            <h1>Royal Banc Pacific</h1>
+            <img
+              src="img/rbp.png"
+              alt=""
+              style={{
+                height: "40px",
+              }}
+            />
+          </div>
+          <div className="content">
+            <p>
+              <b>Royal Banc Pacific : </b>A modern banking website built using
+              React, TailwindCSS, and shadCN UI. The design emphasizes sleek
+              aesthetics and user-friendly navigation, ensuring a seamless
+              digital experience for customers. The site’s robust and visually
+              appealing interface reflects the bank’s commitment to delivering
+              innovative financial solutions.
+            </p>
+          </div>
+          <div className="tech">
+            <h1>Tech Stack: </h1>
+            <ul>
+              <li>React.js</li>
+              {/* <li>MongoDB</li> */}
+              {/* <li>Express.js</li> */}
+              {/* <li>Node.js</li> */}
+              <li>TailwindCSS</li>
+              <li>ShadcnUI</li>
+              {/* <li>JWT</li> */}
+              {/* <li>Recoil</li> */}
+            </ul>
+          </div>
+          <div className="link">
+            <a
+              className="one"
+              href="https://royalbankpacific.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit RBP
+            </a>
+            {/* <a
+              className="two"
+              href="https://github.com/TusharSahu02/MERN-Project/tree/main/socialmedia"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repo
+            </a> */}
+          </div>
+        </div>
+        <div className="left">
+          <a
+            href="https://chipper-lmdc.onrender.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="videos/rbp.gif" alt="" width="100%" />
+          </a>
+        </div>
+      </Card>
       <Card>
         <div className="left">
           <a
@@ -22,10 +86,12 @@ const Web = () => {
           </div>
           <div className="content">
             <p>
-              <b>Meet Routine: </b>
-              Elevate productivity with image uploads, customizable icons,
-              headers, and a robust text editor powered by Blacknote. Simplify
-              organization and creativity effortlessly.
+              <b>Meet Routine: </b>A dynamic platform for developers to stay
+              updated with the latest tech news and trends. Built with a sleek
+              interface, the site curates content from multiple sources, making
+              it a go-to hub for tech enthusiasts. The design focuses on
+              intuitive navigation and personalized feeds for an enhanced user
+              experience.
             </p>
           </div>
           <div className="tech">
@@ -48,14 +114,14 @@ const Web = () => {
             >
               Visit Routine.dev
             </a>
-            {/* <a
+            <a
               className="two"
-              href="https://github.com/TusharSahu02/Jotion/"
+              href="https://github.com/TusharSahu02/routine_dev"
               target="_blank"
               rel="noreferrer noopenner"
             >
               Github repo
-            </a> */}
+            </a>
           </div>
         </div>
       </Card>
@@ -275,6 +341,9 @@ const Web = () => {
         </div>
       </Card> */}
       {/* Movie */}
+      <div>
+        fwef
+      </div>
       <a
         className="all"
         href="https://github.com/TusharSahu02"
