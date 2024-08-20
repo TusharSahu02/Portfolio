@@ -459,6 +459,12 @@ const Card = styled.div`
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    .content {
+      p {
+        font-size: 12px;
+      }
+    }
+
     .title {
       img {
         margin-left: 8px;
